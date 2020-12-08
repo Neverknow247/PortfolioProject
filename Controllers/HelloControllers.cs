@@ -6,7 +6,7 @@ namespace portfolioI.Controllers
         // [Route("")]
         [HttpGet("")]
         public ViewResult Index(){
-            return View();
+            return View("Index");
         }
         // [Route("hello")]
         [HttpGet("projects")]
