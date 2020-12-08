@@ -5,17 +5,17 @@ namespace portfolioI.Controllers
     {
         // [Route("")]
         [HttpGet("")]
-        public string Index(){
-            return "This is my Index!";
+        public ViewResult Index(){
+            return View();
         }
         // [Route("hello")]
         [HttpGet("projects")]
-        public string Projects(){
-            return "These are my projects";
+        public ViewResult Projects(){
+            return View();
         }
         [HttpGet("contact")]
-        public string Contact(){
-            return "This is my contact!";
+        public ViewResult Contact(){
+            return View();
         }
     }
 }
