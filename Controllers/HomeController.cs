@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 namespace portfolioI.Controllers
 {
-    public class HelloControllers : Controller
+    public class HomeController : Controller
     {
         // [Route("")]
         [HttpGet("")]
