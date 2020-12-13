@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    width: 960px;
+    margin: 0px auto;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+#main{
+    text-align: center;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+#profileImage{
+    width: 400px;
+    height: auto;
+}
+.article img{
+    width: 200px;
+    height: auto;
+}
+.scroll{
+    margin:10px, 10px; 
+    padding:10px; 
+    /* background-color: gray; */
+    width: 600px; 
+    height: 300px; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    text-align:justify; 
+}
+form .article{
+    justify-content: center;
+}
